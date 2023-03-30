@@ -36,6 +36,10 @@ app.get('/', function (req, res) {
     res.render("\index");
 });
 
+app.get('/login', function (req, res) {
+    res.render("\login")
+})
+
 //used by upload form
 app.post('/upload', upload.array('upl', 25), function (req, res, next) {
     res.send({
