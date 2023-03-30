@@ -1,0 +1,31 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: #E4E9FD;
+}
+
+.title {
+    margin: 15% 5%;
+}
+
+.file {
+    margin: 15% 5%;
+}
+
+.button {
+    margin: 15% 5%;
+    text-align: center;
+}

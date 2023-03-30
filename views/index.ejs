@@ -1,0 +1,20 @@
+<%- include("partials/header") -%>
+
+    <h1>Continental Cloud</h1>
+
+    <div class="container">
+        <form method="post" enctype="multipart/form-data" action="/upload">
+            <div class="title">
+                <input class="form-control" type="text" name="title" placeholder="Optional Title">
+            </div>
+
+            <div class="file">
+                <input type="file" name="upl" multiple />
+            </div>
+
+            <div class="button">
+                <button class="btn btn-success" type="submit">Clean</button>
+            </div>
+        </form>
+    </div>
+    <%- include("partials/footer") -%>
